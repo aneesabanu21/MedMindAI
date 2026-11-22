@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     openai_api_key: str = ''
     pinecone_api_key: str = ''
     tavily_api_key: str = ''
-    pinecone_index: str = 'medical-agent-demo'
+    pinecone_index: str = 'medmindai-vectors'
     openai_chat_model: str = 'gpt-4.1-mini'
     openai_embed_model: str = 'text-embedding-3-small'
     openai_vision_model: str = 'gpt-4.1-mini'
